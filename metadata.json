@@ -1,0 +1,2146 @@
+{
+    "source_video": "drone_video.mp4",
+    "original_fps": 29.97002997002997,
+    "total_frames": 359,
+    "duration_seconds": 11.98,
+    "selected_frames": 356,
+    "blur_threshold_used": 10.0,
+    "frames": [
+        {
+            "filename": "000000.jpg",
+            "timestamp_sec": 0.0,
+            "original_frame": 0,
+            "laplacian_variance": 555.27
+        },
+        {
+            "filename": "000001.jpg",
+            "timestamp_sec": 0.033,
+            "original_frame": 1,
+            "laplacian_variance": 444.15
+        },
+        {
+            "filename": "000002.jpg",
+            "timestamp_sec": 0.067,
+            "original_frame": 2,
+            "laplacian_variance": 434.77
+        },
+        {
+            "filename": "000003.jpg",
+            "timestamp_sec": 0.1,
+            "original_frame": 3,
+            "laplacian_variance": 414.34
+        },
+        {
+            "filename": "000004.jpg",
+            "timestamp_sec": 0.133,
+            "original_frame": 4,
+            "laplacian_variance": 471.92
+        },
+        {
+            "filename": "000005.jpg",
+            "timestamp_sec": 0.167,
+            "original_frame": 5,
+            "laplacian_variance": 403.02
+        },
+        {
+            "filename": "000006.jpg",
+            "timestamp_sec": 0.2,
+            "original_frame": 6,
+            "laplacian_variance": 411.08
+        },
+        {
+            "filename": "000007.jpg",
+            "timestamp_sec": 0.234,
+            "original_frame": 7,
+            "laplacian_variance": 396.04
+        },
+        {
+            "filename": "000008.jpg",
+            "timestamp_sec": 0.267,
+            "original_frame": 8,
+            "laplacian_variance": 444.87
+        },
+        {
+            "filename": "000009.jpg",
+            "timestamp_sec": 0.3,
+            "original_frame": 9,
+            "laplacian_variance": 387.65
+        },
+        {
+            "filename": "000010.jpg",
+            "timestamp_sec": 0.334,
+            "original_frame": 10,
+            "laplacian_variance": 396.31
+        },
+        {
+            "filename": "000011.jpg",
+            "timestamp_sec": 0.367,
+            "original_frame": 11,
+            "laplacian_variance": 385.58
+        },
+        {
+            "filename": "000012.jpg",
+            "timestamp_sec": 0.4,
+            "original_frame": 12,
+            "laplacian_variance": 431.84
+        },
+        {
+            "filename": "000013.jpg",
+            "timestamp_sec": 0.434,
+            "original_frame": 13,
+            "laplacian_variance": 384.73
+        },
+        {
+            "filename": "000014.jpg",
+            "timestamp_sec": 0.467,
+            "original_frame": 14,
+            "laplacian_variance": 391.52
+        },
+        {
+            "filename": "000015.jpg",
+            "timestamp_sec": 0.501,
+            "original_frame": 15,
+            "laplacian_variance": 385.69
+        },
+        {
+            "filename": "000016.jpg",
+            "timestamp_sec": 0.534,
+            "original_frame": 16,
+            "laplacian_variance": 427.4
+        },
+        {
+            "filename": "000017.jpg",
+            "timestamp_sec": 0.567,
+            "original_frame": 17,
+            "laplacian_variance": 377.34
+        },
+        {
+            "filename": "000018.jpg",
+            "timestamp_sec": 0.601,
+            "original_frame": 18,
+            "laplacian_variance": 383.7
+        },
+        {
+            "filename": "000019.jpg",
+            "timestamp_sec": 0.634,
+            "original_frame": 19,
+            "laplacian_variance": 375.6
+        },
+        {
+            "filename": "000020.jpg",
+            "timestamp_sec": 0.667,
+            "original_frame": 20,
+            "laplacian_variance": 416.59
+        },
+        {
+            "filename": "000021.jpg",
+            "timestamp_sec": 0.701,
+            "original_frame": 21,
+            "laplacian_variance": 374.1
+        },
+        {
+            "filename": "000022.jpg",
+            "timestamp_sec": 0.734,
+            "original_frame": 22,
+            "laplacian_variance": 381.99
+        },
+        {
+            "filename": "000023.jpg",
+            "timestamp_sec": 0.767,
+            "original_frame": 23,
+            "laplacian_variance": 374.53
+        },
+        {
+            "filename": "000024.jpg",
+            "timestamp_sec": 0.801,
+            "original_frame": 24,
+            "laplacian_variance": 413.63
+        },
+        {
+            "filename": "000025.jpg",
+            "timestamp_sec": 0.834,
+            "original_frame": 25,
+            "laplacian_variance": 378.5
+        },
+        {
+            "filename": "000026.jpg",
+            "timestamp_sec": 0.868,
+            "original_frame": 26,
+            "laplacian_variance": 376.94
+        },
+        {
+            "filename": "000027.jpg",
+            "timestamp_sec": 0.901,
+            "original_frame": 27,
+            "laplacian_variance": 412.72
+        },
+        {
+            "filename": "000028.jpg",
+            "timestamp_sec": 0.934,
+            "original_frame": 28,
+            "laplacian_variance": 369.7
+        },
+        {
+            "filename": "000029.jpg",
+            "timestamp_sec": 0.968,
+            "original_frame": 29,
+            "laplacian_variance": 379.42
+        },
+        {
+            "filename": "000030.jpg",
+            "timestamp_sec": 1.001,
+            "original_frame": 30,
+            "laplacian_variance": 378.35
+        },
+        {
+            "filename": "000031.jpg",
+            "timestamp_sec": 1.034,
+            "original_frame": 31,
+            "laplacian_variance": 414.08
+        },
+        {
+            "filename": "000032.jpg",
+            "timestamp_sec": 1.068,
+            "original_frame": 32,
+            "laplacian_variance": 362.71
+        },
+        {
+            "filename": "000033.jpg",
+            "timestamp_sec": 1.101,
+            "original_frame": 33,
+            "laplacian_variance": 365.75
+        },
+        {
+            "filename": "000034.jpg",
+            "timestamp_sec": 1.134,
+            "original_frame": 34,
+            "laplacian_variance": 355.8
+        },
+        {
+            "filename": "000035.jpg",
+            "timestamp_sec": 1.168,
+            "original_frame": 35,
+            "laplacian_variance": 394.91
+        },
+        {
+            "filename": "000036.jpg",
+            "timestamp_sec": 1.201,
+            "original_frame": 36,
+            "laplacian_variance": 356.84
+        },
+        {
+            "filename": "000037.jpg",
+            "timestamp_sec": 1.235,
+            "original_frame": 37,
+            "laplacian_variance": 364.77
+        },
+        {
+            "filename": "000038.jpg",
+            "timestamp_sec": 1.268,
+            "original_frame": 38,
+            "laplacian_variance": 354.52
+        },
+        {
+            "filename": "000039.jpg",
+            "timestamp_sec": 1.301,
+            "original_frame": 39,
+            "laplacian_variance": 396.86
+        },
+        {
+            "filename": "000040.jpg",
+            "timestamp_sec": 1.335,
+            "original_frame": 40,
+            "laplacian_variance": 357.17
+        },
+        {
+            "filename": "000041.jpg",
+            "timestamp_sec": 1.368,
+            "original_frame": 41,
+            "laplacian_variance": 366.59
+        },
+        {
+            "filename": "000042.jpg",
+            "timestamp_sec": 1.401,
+            "original_frame": 42,
+            "laplacian_variance": 362.88
+        },
+        {
+            "filename": "000043.jpg",
+            "timestamp_sec": 1.435,
+            "original_frame": 43,
+            "laplacian_variance": 408.76
+        },
+        {
+            "filename": "000044.jpg",
+            "timestamp_sec": 1.468,
+            "original_frame": 44,
+            "laplacian_variance": 368.19
+        },
+        {
+            "filename": "000045.jpg",
+            "timestamp_sec": 1.502,
+            "original_frame": 45,
+            "laplacian_variance": 372.34
+        },
+        {
+            "filename": "000046.jpg",
+            "timestamp_sec": 1.535,
+            "original_frame": 46,
+            "laplacian_variance": 360.14
+        },
+        {
+            "filename": "000047.jpg",
+            "timestamp_sec": 1.568,
+            "original_frame": 47,
+            "laplacian_variance": 404.85
+        },
+        {
+            "filename": "000048.jpg",
+            "timestamp_sec": 1.602,
+            "original_frame": 48,
+            "laplacian_variance": 381.46
+        },
+        {
+            "filename": "000049.jpg",
+            "timestamp_sec": 1.635,
+            "original_frame": 49,
+            "laplacian_variance": 410.26
+        },
+        {
+            "filename": "000050.jpg",
+            "timestamp_sec": 1.668,
+            "original_frame": 50,
+            "laplacian_variance": 363.75
+        },
+        {
+            "filename": "000051.jpg",
+            "timestamp_sec": 1.702,
+            "original_frame": 51,
+            "laplacian_variance": 378.1
+        },
+        {
+            "filename": "000052.jpg",
+            "timestamp_sec": 1.735,
+            "original_frame": 52,
+            "laplacian_variance": 373.07
+        },
+        {
+            "filename": "000053.jpg",
+            "timestamp_sec": 1.768,
+            "original_frame": 53,
+            "laplacian_variance": 415.13
+        },
+        {
+            "filename": "000054.jpg",
+            "timestamp_sec": 1.802,
+            "original_frame": 54,
+            "laplacian_variance": 365.73
+        },
+        {
+            "filename": "000055.jpg",
+            "timestamp_sec": 1.835,
+            "original_frame": 55,
+            "laplacian_variance": 375.62
+        },
+        {
+            "filename": "000056.jpg",
+            "timestamp_sec": 1.869,
+            "original_frame": 56,
+            "laplacian_variance": 368.31
+        },
+        {
+            "filename": "000057.jpg",
+            "timestamp_sec": 1.902,
+            "original_frame": 57,
+            "laplacian_variance": 409.3
+        },
+        {
+            "filename": "000058.jpg",
+            "timestamp_sec": 1.935,
+            "original_frame": 58,
+            "laplacian_variance": 365.89
+        },
+        {
+            "filename": "000059.jpg",
+            "timestamp_sec": 1.969,
+            "original_frame": 59,
+            "laplacian_variance": 369.76
+        },
+        {
+            "filename": "000060.jpg",
+            "timestamp_sec": 2.002,
+            "original_frame": 60,
+            "laplacian_variance": 363.57
+        },
+        {
+            "filename": "000061.jpg",
+            "timestamp_sec": 2.035,
+            "original_frame": 61,
+            "laplacian_variance": 410.02
+        },
+        {
+            "filename": "000062.jpg",
+            "timestamp_sec": 2.069,
+            "original_frame": 62,
+            "laplacian_variance": 365.53
+        },
+        {
+            "filename": "000063.jpg",
+            "timestamp_sec": 2.102,
+            "original_frame": 63,
+            "laplacian_variance": 364.34
+        },
+        {
+            "filename": "000064.jpg",
+            "timestamp_sec": 2.135,
+            "original_frame": 64,
+            "laplacian_variance": 361.89
+        },
+        {
+            "filename": "000065.jpg",
+            "timestamp_sec": 2.169,
+            "original_frame": 65,
+            "laplacian_variance": 405.61
+        },
+        {
+            "filename": "000066.jpg",
+            "timestamp_sec": 2.202,
+            "original_frame": 66,
+            "laplacian_variance": 355.32
+        },
+        {
+            "filename": "000067.jpg",
+            "timestamp_sec": 2.236,
+            "original_frame": 67,
+            "laplacian_variance": 366.52
+        },
+        {
+            "filename": "000068.jpg",
+            "timestamp_sec": 2.269,
+            "original_frame": 68,
+            "laplacian_variance": 357.85
+        },
+        {
+            "filename": "000069.jpg",
+            "timestamp_sec": 2.302,
+            "original_frame": 69,
+            "laplacian_variance": 400.9
+        },
+        {
+            "filename": "000070.jpg",
+            "timestamp_sec": 2.336,
+            "original_frame": 70,
+            "laplacian_variance": 354.34
+        },
+        {
+            "filename": "000071.jpg",
+            "timestamp_sec": 2.369,
+            "original_frame": 71,
+            "laplacian_variance": 363.92
+        },
+        {
+            "filename": "000072.jpg",
+            "timestamp_sec": 2.402,
+            "original_frame": 72,
+            "laplacian_variance": 357.11
+        },
+        {
+            "filename": "000073.jpg",
+            "timestamp_sec": 2.436,
+            "original_frame": 73,
+            "laplacian_variance": 403.37
+        },
+        {
+            "filename": "000074.jpg",
+            "timestamp_sec": 2.469,
+            "original_frame": 74,
+            "laplacian_variance": 356.85
+        },
+        {
+            "filename": "000075.jpg",
+            "timestamp_sec": 2.502,
+            "original_frame": 75,
+            "laplacian_variance": 367.82
+        },
+        {
+            "filename": "000076.jpg",
+            "timestamp_sec": 2.536,
+            "original_frame": 76,
+            "laplacian_variance": 366.57
+        },
+        {
+            "filename": "000077.jpg",
+            "timestamp_sec": 2.569,
+            "original_frame": 77,
+            "laplacian_variance": 404.59
+        },
+        {
+            "filename": "000078.jpg",
+            "timestamp_sec": 2.603,
+            "original_frame": 78,
+            "laplacian_variance": 357.86
+        },
+        {
+            "filename": "000079.jpg",
+            "timestamp_sec": 2.636,
+            "original_frame": 79,
+            "laplacian_variance": 367.94
+        },
+        {
+            "filename": "000080.jpg",
+            "timestamp_sec": 2.669,
+            "original_frame": 80,
+            "laplacian_variance": 358.69
+        },
+        {
+            "filename": "000081.jpg",
+            "timestamp_sec": 2.703,
+            "original_frame": 81,
+            "laplacian_variance": 404.84
+        },
+        {
+            "filename": "000082.jpg",
+            "timestamp_sec": 2.736,
+            "original_frame": 82,
+            "laplacian_variance": 359.0
+        },
+        {
+            "filename": "000083.jpg",
+            "timestamp_sec": 2.769,
+            "original_frame": 83,
+            "laplacian_variance": 367.07
+        },
+        {
+            "filename": "000084.jpg",
+            "timestamp_sec": 2.803,
+            "original_frame": 84,
+            "laplacian_variance": 356.07
+        },
+        {
+            "filename": "000085.jpg",
+            "timestamp_sec": 2.836,
+            "original_frame": 85,
+            "laplacian_variance": 402.38
+        },
+        {
+            "filename": "000086.jpg",
+            "timestamp_sec": 2.87,
+            "original_frame": 86,
+            "laplacian_variance": 359.24
+        },
+        {
+            "filename": "000087.jpg",
+            "timestamp_sec": 2.903,
+            "original_frame": 87,
+            "laplacian_variance": 366.45
+        },
+        {
+            "filename": "000088.jpg",
+            "timestamp_sec": 2.936,
+            "original_frame": 88,
+            "laplacian_variance": 358.45
+        },
+        {
+            "filename": "000089.jpg",
+            "timestamp_sec": 2.97,
+            "original_frame": 89,
+            "laplacian_variance": 404.26
+        },
+        {
+            "filename": "000090.jpg",
+            "timestamp_sec": 3.003,
+            "original_frame": 90,
+            "laplacian_variance": 539.0
+        },
+        {
+            "filename": "000091.jpg",
+            "timestamp_sec": 3.036,
+            "original_frame": 91,
+            "laplacian_variance": 439.28
+        },
+        {
+            "filename": "000092.jpg",
+            "timestamp_sec": 3.07,
+            "original_frame": 92,
+            "laplacian_variance": 421.0
+        },
+        {
+            "filename": "000093.jpg",
+            "timestamp_sec": 3.103,
+            "original_frame": 93,
+            "laplacian_variance": 391.3
+        },
+        {
+            "filename": "000094.jpg",
+            "timestamp_sec": 3.136,
+            "original_frame": 94,
+            "laplacian_variance": 460.45
+        },
+        {
+            "filename": "000095.jpg",
+            "timestamp_sec": 3.17,
+            "original_frame": 95,
+            "laplacian_variance": 392.14
+        },
+        {
+            "filename": "000096.jpg",
+            "timestamp_sec": 3.203,
+            "original_frame": 96,
+            "laplacian_variance": 398.03
+        },
+        {
+            "filename": "000097.jpg",
+            "timestamp_sec": 3.237,
+            "original_frame": 97,
+            "laplacian_variance": 383.89
+        },
+        {
+            "filename": "000098.jpg",
+            "timestamp_sec": 3.27,
+            "original_frame": 98,
+            "laplacian_variance": 443.17
+        },
+        {
+            "filename": "000099.jpg",
+            "timestamp_sec": 3.303,
+            "original_frame": 99,
+            "laplacian_variance": 383.62
+        },
+        {
+            "filename": "000100.jpg",
+            "timestamp_sec": 3.337,
+            "original_frame": 100,
+            "laplacian_variance": 389.1
+        },
+        {
+            "filename": "000101.jpg",
+            "timestamp_sec": 3.37,
+            "original_frame": 101,
+            "laplacian_variance": 383.63
+        },
+        {
+            "filename": "000102.jpg",
+            "timestamp_sec": 3.403,
+            "original_frame": 102,
+            "laplacian_variance": 436.97
+        },
+        {
+            "filename": "000103.jpg",
+            "timestamp_sec": 3.437,
+            "original_frame": 103,
+            "laplacian_variance": 382.12
+        },
+        {
+            "filename": "000104.jpg",
+            "timestamp_sec": 3.47,
+            "original_frame": 104,
+            "laplacian_variance": 388.25
+        },
+        {
+            "filename": "000105.jpg",
+            "timestamp_sec": 3.504,
+            "original_frame": 105,
+            "laplacian_variance": 373.6
+        },
+        {
+            "filename": "000106.jpg",
+            "timestamp_sec": 3.537,
+            "original_frame": 106,
+            "laplacian_variance": 431.93
+        },
+        {
+            "filename": "000107.jpg",
+            "timestamp_sec": 3.57,
+            "original_frame": 107,
+            "laplacian_variance": 382.23
+        },
+        {
+            "filename": "000108.jpg",
+            "timestamp_sec": 3.604,
+            "original_frame": 108,
+            "laplacian_variance": 386.84
+        },
+        {
+            "filename": "000109.jpg",
+            "timestamp_sec": 3.637,
+            "original_frame": 109,
+            "laplacian_variance": 379.62
+        },
+        {
+            "filename": "000110.jpg",
+            "timestamp_sec": 3.67,
+            "original_frame": 110,
+            "laplacian_variance": 432.35
+        },
+        {
+            "filename": "000111.jpg",
+            "timestamp_sec": 3.704,
+            "original_frame": 111,
+            "laplacian_variance": 381.59
+        },
+        {
+            "filename": "000112.jpg",
+            "timestamp_sec": 3.737,
+            "original_frame": 112,
+            "laplacian_variance": 386.05
+        },
+        {
+            "filename": "000113.jpg",
+            "timestamp_sec": 3.77,
+            "original_frame": 113,
+            "laplacian_variance": 375.64
+        },
+        {
+            "filename": "000114.jpg",
+            "timestamp_sec": 3.804,
+            "original_frame": 114,
+            "laplacian_variance": 428.84
+        },
+        {
+            "filename": "000115.jpg",
+            "timestamp_sec": 3.837,
+            "original_frame": 115,
+            "laplacian_variance": 377.86
+        },
+        {
+            "filename": "000116.jpg",
+            "timestamp_sec": 3.871,
+            "original_frame": 116,
+            "laplacian_variance": 387.49
+        },
+        {
+            "filename": "000117.jpg",
+            "timestamp_sec": 3.904,
+            "original_frame": 117,
+            "laplacian_variance": 380.08
+        },
+        {
+            "filename": "000118.jpg",
+            "timestamp_sec": 3.937,
+            "original_frame": 118,
+            "laplacian_variance": 431.45
+        },
+        {
+            "filename": "000119.jpg",
+            "timestamp_sec": 3.971,
+            "original_frame": 119,
+            "laplacian_variance": 379.3
+        },
+        {
+            "filename": "000120.jpg",
+            "timestamp_sec": 4.004,
+            "original_frame": 120,
+            "laplacian_variance": 390.49
+        },
+        {
+            "filename": "000121.jpg",
+            "timestamp_sec": 4.037,
+            "original_frame": 121,
+            "laplacian_variance": 377.39
+        },
+        {
+            "filename": "000122.jpg",
+            "timestamp_sec": 4.071,
+            "original_frame": 122,
+            "laplacian_variance": 422.42
+        },
+        {
+            "filename": "000123.jpg",
+            "timestamp_sec": 4.104,
+            "original_frame": 123,
+            "laplacian_variance": 373.29
+        },
+        {
+            "filename": "000124.jpg",
+            "timestamp_sec": 4.137,
+            "original_frame": 124,
+            "laplacian_variance": 373.51
+        },
+        {
+            "filename": "000125.jpg",
+            "timestamp_sec": 4.171,
+            "original_frame": 125,
+            "laplacian_variance": 367.77
+        },
+        {
+            "filename": "000126.jpg",
+            "timestamp_sec": 4.204,
+            "original_frame": 126,
+            "laplacian_variance": 413.56
+        },
+        {
+            "filename": "000127.jpg",
+            "timestamp_sec": 4.238,
+            "original_frame": 127,
+            "laplacian_variance": 364.94
+        },
+        {
+            "filename": "000128.jpg",
+            "timestamp_sec": 4.271,
+            "original_frame": 128,
+            "laplacian_variance": 371.88
+        },
+        {
+            "filename": "000129.jpg",
+            "timestamp_sec": 4.304,
+            "original_frame": 129,
+            "laplacian_variance": 368.47
+        },
+        {
+            "filename": "000130.jpg",
+            "timestamp_sec": 4.338,
+            "original_frame": 130,
+            "laplacian_variance": 416.96
+        },
+        {
+            "filename": "000131.jpg",
+            "timestamp_sec": 4.371,
+            "original_frame": 131,
+            "laplacian_variance": 368.06
+        },
+        {
+            "filename": "000132.jpg",
+            "timestamp_sec": 4.404,
+            "original_frame": 132,
+            "laplacian_variance": 370.21
+        },
+        {
+            "filename": "000133.jpg",
+            "timestamp_sec": 4.438,
+            "original_frame": 133,
+            "laplacian_variance": 363.46
+        },
+        {
+            "filename": "000134.jpg",
+            "timestamp_sec": 4.471,
+            "original_frame": 134,
+            "laplacian_variance": 408.44
+        },
+        {
+            "filename": "000135.jpg",
+            "timestamp_sec": 4.505,
+            "original_frame": 135,
+            "laplacian_variance": 370.22
+        },
+        {
+            "filename": "000136.jpg",
+            "timestamp_sec": 4.538,
+            "original_frame": 136,
+            "laplacian_variance": 409.05
+        },
+        {
+            "filename": "000137.jpg",
+            "timestamp_sec": 4.571,
+            "original_frame": 137,
+            "laplacian_variance": 363.62
+        },
+        {
+            "filename": "000138.jpg",
+            "timestamp_sec": 4.605,
+            "original_frame": 138,
+            "laplacian_variance": 369.96
+        },
+        {
+            "filename": "000139.jpg",
+            "timestamp_sec": 4.638,
+            "original_frame": 139,
+            "laplacian_variance": 370.88
+        },
+        {
+            "filename": "000140.jpg",
+            "timestamp_sec": 4.671,
+            "original_frame": 140,
+            "laplacian_variance": 415.76
+        },
+        {
+            "filename": "000141.jpg",
+            "timestamp_sec": 4.705,
+            "original_frame": 141,
+            "laplacian_variance": 368.93
+        },
+        {
+            "filename": "000142.jpg",
+            "timestamp_sec": 4.738,
+            "original_frame": 142,
+            "laplacian_variance": 374.48
+        },
+        {
+            "filename": "000143.jpg",
+            "timestamp_sec": 4.771,
+            "original_frame": 143,
+            "laplacian_variance": 367.83
+        },
+        {
+            "filename": "000144.jpg",
+            "timestamp_sec": 4.805,
+            "original_frame": 144,
+            "laplacian_variance": 415.04
+        },
+        {
+            "filename": "000145.jpg",
+            "timestamp_sec": 4.838,
+            "original_frame": 145,
+            "laplacian_variance": 366.02
+        },
+        {
+            "filename": "000146.jpg",
+            "timestamp_sec": 4.872,
+            "original_frame": 146,
+            "laplacian_variance": 371.3
+        },
+        {
+            "filename": "000147.jpg",
+            "timestamp_sec": 4.905,
+            "original_frame": 147,
+            "laplacian_variance": 363.04
+        },
+        {
+            "filename": "000148.jpg",
+            "timestamp_sec": 4.938,
+            "original_frame": 148,
+            "laplacian_variance": 411.77
+        },
+        {
+            "filename": "000149.jpg",
+            "timestamp_sec": 4.972,
+            "original_frame": 149,
+            "laplacian_variance": 368.38
+        },
+        {
+            "filename": "000150.jpg",
+            "timestamp_sec": 5.005,
+            "original_frame": 150,
+            "laplacian_variance": 377.15
+        },
+        {
+            "filename": "000151.jpg",
+            "timestamp_sec": 5.038,
+            "original_frame": 151,
+            "laplacian_variance": 369.31
+        },
+        {
+            "filename": "000152.jpg",
+            "timestamp_sec": 5.072,
+            "original_frame": 152,
+            "laplacian_variance": 411.61
+        },
+        {
+            "filename": "000153.jpg",
+            "timestamp_sec": 5.105,
+            "original_frame": 153,
+            "laplacian_variance": 365.22
+        },
+        {
+            "filename": "000154.jpg",
+            "timestamp_sec": 5.138,
+            "original_frame": 154,
+            "laplacian_variance": 368.76
+        },
+        {
+            "filename": "000155.jpg",
+            "timestamp_sec": 5.172,
+            "original_frame": 155,
+            "laplacian_variance": 363.67
+        },
+        {
+            "filename": "000156.jpg",
+            "timestamp_sec": 5.205,
+            "original_frame": 156,
+            "laplacian_variance": 409.3
+        },
+        {
+            "filename": "000157.jpg",
+            "timestamp_sec": 5.239,
+            "original_frame": 157,
+            "laplacian_variance": 366.73
+        },
+        {
+            "filename": "000158.jpg",
+            "timestamp_sec": 5.272,
+            "original_frame": 158,
+            "laplacian_variance": 367.3
+        },
+        {
+            "filename": "000159.jpg",
+            "timestamp_sec": 5.305,
+            "original_frame": 159,
+            "laplacian_variance": 360.04
+        },
+        {
+            "filename": "000160.jpg",
+            "timestamp_sec": 5.339,
+            "original_frame": 160,
+            "laplacian_variance": 407.38
+        },
+        {
+            "filename": "000161.jpg",
+            "timestamp_sec": 5.372,
+            "original_frame": 161,
+            "laplacian_variance": 370.78
+        },
+        {
+            "filename": "000162.jpg",
+            "timestamp_sec": 5.405,
+            "original_frame": 162,
+            "laplacian_variance": 367.29
+        },
+        {
+            "filename": "000163.jpg",
+            "timestamp_sec": 5.439,
+            "original_frame": 163,
+            "laplacian_variance": 411.58
+        },
+        {
+            "filename": "000164.jpg",
+            "timestamp_sec": 5.472,
+            "original_frame": 164,
+            "laplacian_variance": 365.26
+        },
+        {
+            "filename": "000165.jpg",
+            "timestamp_sec": 5.506,
+            "original_frame": 165,
+            "laplacian_variance": 372.49
+        },
+        {
+            "filename": "000166.jpg",
+            "timestamp_sec": 5.539,
+            "original_frame": 166,
+            "laplacian_variance": 370.44
+        },
+        {
+            "filename": "000167.jpg",
+            "timestamp_sec": 5.572,
+            "original_frame": 167,
+            "laplacian_variance": 415.93
+        },
+        {
+            "filename": "000168.jpg",
+            "timestamp_sec": 5.606,
+            "original_frame": 168,
+            "laplacian_variance": 369.11
+        },
+        {
+            "filename": "000169.jpg",
+            "timestamp_sec": 5.639,
+            "original_frame": 169,
+            "laplacian_variance": 379.46
+        },
+        {
+            "filename": "000170.jpg",
+            "timestamp_sec": 5.672,
+            "original_frame": 170,
+            "laplacian_variance": 374.12
+        },
+        {
+            "filename": "000171.jpg",
+            "timestamp_sec": 5.706,
+            "original_frame": 171,
+            "laplacian_variance": 419.08
+        },
+        {
+            "filename": "000172.jpg",
+            "timestamp_sec": 5.739,
+            "original_frame": 172,
+            "laplacian_variance": 371.32
+        },
+        {
+            "filename": "000173.jpg",
+            "timestamp_sec": 5.772,
+            "original_frame": 173,
+            "laplacian_variance": 373.71
+        },
+        {
+            "filename": "000174.jpg",
+            "timestamp_sec": 5.806,
+            "original_frame": 174,
+            "laplacian_variance": 371.26
+        },
+        {
+            "filename": "000175.jpg",
+            "timestamp_sec": 5.839,
+            "original_frame": 175,
+            "laplacian_variance": 413.67
+        },
+        {
+            "filename": "000176.jpg",
+            "timestamp_sec": 5.873,
+            "original_frame": 176,
+            "laplacian_variance": 366.6
+        },
+        {
+            "filename": "000177.jpg",
+            "timestamp_sec": 5.906,
+            "original_frame": 177,
+            "laplacian_variance": 368.95
+        },
+        {
+            "filename": "000178.jpg",
+            "timestamp_sec": 5.939,
+            "original_frame": 178,
+            "laplacian_variance": 371.44
+        },
+        {
+            "filename": "000179.jpg",
+            "timestamp_sec": 5.973,
+            "original_frame": 179,
+            "laplacian_variance": 418.99
+        },
+        {
+            "filename": "000180.jpg",
+            "timestamp_sec": 6.006,
+            "original_frame": 180,
+            "laplacian_variance": 538.89
+        },
+        {
+            "filename": "000181.jpg",
+            "timestamp_sec": 6.039,
+            "original_frame": 181,
+            "laplacian_variance": 439.57
+        },
+        {
+            "filename": "000182.jpg",
+            "timestamp_sec": 6.073,
+            "original_frame": 182,
+            "laplacian_variance": 418.53
+        },
+        {
+            "filename": "000183.jpg",
+            "timestamp_sec": 6.106,
+            "original_frame": 183,
+            "laplacian_variance": 399.13
+        },
+        {
+            "filename": "000184.jpg",
+            "timestamp_sec": 6.139,
+            "original_frame": 184,
+            "laplacian_variance": 464.43
+        },
+        {
+            "filename": "000185.jpg",
+            "timestamp_sec": 6.173,
+            "original_frame": 185,
+            "laplacian_variance": 397.41
+        },
+        {
+            "filename": "000186.jpg",
+            "timestamp_sec": 6.206,
+            "original_frame": 186,
+            "laplacian_variance": 392.57
+        },
+        {
+            "filename": "000187.jpg",
+            "timestamp_sec": 6.24,
+            "original_frame": 187,
+            "laplacian_variance": 386.59
+        },
+        {
+            "filename": "000188.jpg",
+            "timestamp_sec": 6.273,
+            "original_frame": 188,
+            "laplacian_variance": 436.47
+        },
+        {
+            "filename": "000189.jpg",
+            "timestamp_sec": 6.306,
+            "original_frame": 189,
+            "laplacian_variance": 383.96
+        },
+        {
+            "filename": "000190.jpg",
+            "timestamp_sec": 6.34,
+            "original_frame": 190,
+            "laplacian_variance": 385.44
+        },
+        {
+            "filename": "000191.jpg",
+            "timestamp_sec": 6.373,
+            "original_frame": 191,
+            "laplacian_variance": 379.49
+        },
+        {
+            "filename": "000192.jpg",
+            "timestamp_sec": 6.406,
+            "original_frame": 192,
+            "laplacian_variance": 430.85
+        },
+        {
+            "filename": "000193.jpg",
+            "timestamp_sec": 6.44,
+            "original_frame": 193,
+            "laplacian_variance": 381.59
+        },
+        {
+            "filename": "000194.jpg",
+            "timestamp_sec": 6.473,
+            "original_frame": 194,
+            "laplacian_variance": 385.54
+        },
+        {
+            "filename": "000195.jpg",
+            "timestamp_sec": 6.506,
+            "original_frame": 195,
+            "laplacian_variance": 377.63
+        },
+        {
+            "filename": "000196.jpg",
+            "timestamp_sec": 6.54,
+            "original_frame": 196,
+            "laplacian_variance": 429.25
+        },
+        {
+            "filename": "000197.jpg",
+            "timestamp_sec": 6.573,
+            "original_frame": 197,
+            "laplacian_variance": 382.66
+        },
+        {
+            "filename": "000198.jpg",
+            "timestamp_sec": 6.607,
+            "original_frame": 198,
+            "laplacian_variance": 386.32
+        },
+        {
+            "filename": "000199.jpg",
+            "timestamp_sec": 6.64,
+            "original_frame": 199,
+            "laplacian_variance": 386.71
+        },
+        {
+            "filename": "000200.jpg",
+            "timestamp_sec": 6.673,
+            "original_frame": 200,
+            "laplacian_variance": 431.98
+        },
+        {
+            "filename": "000201.jpg",
+            "timestamp_sec": 6.707,
+            "original_frame": 201,
+            "laplacian_variance": 386.57
+        },
+        {
+            "filename": "000202.jpg",
+            "timestamp_sec": 6.74,
+            "original_frame": 202,
+            "laplacian_variance": 387.76
+        },
+        {
+            "filename": "000203.jpg",
+            "timestamp_sec": 6.773,
+            "original_frame": 203,
+            "laplacian_variance": 383.74
+        },
+        {
+            "filename": "000204.jpg",
+            "timestamp_sec": 6.807,
+            "original_frame": 204,
+            "laplacian_variance": 431.05
+        },
+        {
+            "filename": "000205.jpg",
+            "timestamp_sec": 6.84,
+            "original_frame": 205,
+            "laplacian_variance": 383.99
+        },
+        {
+            "filename": "000206.jpg",
+            "timestamp_sec": 6.874,
+            "original_frame": 206,
+            "laplacian_variance": 389.54
+        },
+        {
+            "filename": "000207.jpg",
+            "timestamp_sec": 6.907,
+            "original_frame": 207,
+            "laplacian_variance": 382.54
+        },
+        {
+            "filename": "000208.jpg",
+            "timestamp_sec": 6.94,
+            "original_frame": 208,
+            "laplacian_variance": 425.11
+        },
+        {
+            "filename": "000209.jpg",
+            "timestamp_sec": 6.974,
+            "original_frame": 209,
+            "laplacian_variance": 378.12
+        },
+        {
+            "filename": "000210.jpg",
+            "timestamp_sec": 7.007,
+            "original_frame": 210,
+            "laplacian_variance": 390.97
+        },
+        {
+            "filename": "000211.jpg",
+            "timestamp_sec": 7.04,
+            "original_frame": 211,
+            "laplacian_variance": 378.71
+        },
+        {
+            "filename": "000212.jpg",
+            "timestamp_sec": 7.074,
+            "original_frame": 212,
+            "laplacian_variance": 422.48
+        },
+        {
+            "filename": "000213.jpg",
+            "timestamp_sec": 7.107,
+            "original_frame": 213,
+            "laplacian_variance": 379.54
+        },
+        {
+            "filename": "000214.jpg",
+            "timestamp_sec": 7.14,
+            "original_frame": 214,
+            "laplacian_variance": 380.78
+        },
+        {
+            "filename": "000215.jpg",
+            "timestamp_sec": 7.174,
+            "original_frame": 215,
+            "laplacian_variance": 374.22
+        },
+        {
+            "filename": "000216.jpg",
+            "timestamp_sec": 7.207,
+            "original_frame": 216,
+            "laplacian_variance": 419.31
+        },
+        {
+            "filename": "000217.jpg",
+            "timestamp_sec": 7.241,
+            "original_frame": 217,
+            "laplacian_variance": 370.3
+        },
+        {
+            "filename": "000218.jpg",
+            "timestamp_sec": 7.274,
+            "original_frame": 218,
+            "laplacian_variance": 378.41
+        },
+        {
+            "filename": "000219.jpg",
+            "timestamp_sec": 7.307,
+            "original_frame": 219,
+            "laplacian_variance": 374.99
+        },
+        {
+            "filename": "000220.jpg",
+            "timestamp_sec": 7.341,
+            "original_frame": 220,
+            "laplacian_variance": 417.16
+        },
+        {
+            "filename": "000221.jpg",
+            "timestamp_sec": 7.374,
+            "original_frame": 221,
+            "laplacian_variance": 379.74
+        },
+        {
+            "filename": "000222.jpg",
+            "timestamp_sec": 7.407,
+            "original_frame": 222,
+            "laplacian_variance": 374.51
+        },
+        {
+            "filename": "000223.jpg",
+            "timestamp_sec": 7.441,
+            "original_frame": 223,
+            "laplacian_variance": 422.68
+        },
+        {
+            "filename": "000224.jpg",
+            "timestamp_sec": 7.474,
+            "original_frame": 224,
+            "laplacian_variance": 380.02
+        },
+        {
+            "filename": "000225.jpg",
+            "timestamp_sec": 7.508,
+            "original_frame": 225,
+            "laplacian_variance": 381.3
+        },
+        {
+            "filename": "000226.jpg",
+            "timestamp_sec": 7.541,
+            "original_frame": 226,
+            "laplacian_variance": 379.59
+        },
+        {
+            "filename": "000227.jpg",
+            "timestamp_sec": 7.574,
+            "original_frame": 227,
+            "laplacian_variance": 420.22
+        },
+        {
+            "filename": "000228.jpg",
+            "timestamp_sec": 7.608,
+            "original_frame": 228,
+            "laplacian_variance": 378.37
+        },
+        {
+            "filename": "000229.jpg",
+            "timestamp_sec": 7.641,
+            "original_frame": 229,
+            "laplacian_variance": 384.88
+        },
+        {
+            "filename": "000230.jpg",
+            "timestamp_sec": 7.674,
+            "original_frame": 230,
+            "laplacian_variance": 379.57
+        },
+        {
+            "filename": "000231.jpg",
+            "timestamp_sec": 7.708,
+            "original_frame": 231,
+            "laplacian_variance": 422.6
+        },
+        {
+            "filename": "000232.jpg",
+            "timestamp_sec": 7.741,
+            "original_frame": 232,
+            "laplacian_variance": 378.78
+        },
+        {
+            "filename": "000233.jpg",
+            "timestamp_sec": 7.774,
+            "original_frame": 233,
+            "laplacian_variance": 381.67
+        },
+        {
+            "filename": "000234.jpg",
+            "timestamp_sec": 7.808,
+            "original_frame": 234,
+            "laplacian_variance": 378.87
+        },
+        {
+            "filename": "000235.jpg",
+            "timestamp_sec": 7.841,
+            "original_frame": 235,
+            "laplacian_variance": 418.5
+        },
+        {
+            "filename": "000236.jpg",
+            "timestamp_sec": 7.875,
+            "original_frame": 236,
+            "laplacian_variance": 374.87
+        },
+        {
+            "filename": "000237.jpg",
+            "timestamp_sec": 7.908,
+            "original_frame": 237,
+            "laplacian_variance": 375.04
+        },
+        {
+            "filename": "000238.jpg",
+            "timestamp_sec": 7.941,
+            "original_frame": 238,
+            "laplacian_variance": 369.36
+        },
+        {
+            "filename": "000239.jpg",
+            "timestamp_sec": 7.975,
+            "original_frame": 239,
+            "laplacian_variance": 411.98
+        },
+        {
+            "filename": "000240.jpg",
+            "timestamp_sec": 8.008,
+            "original_frame": 240,
+            "laplacian_variance": 361.3
+        },
+        {
+            "filename": "000241.jpg",
+            "timestamp_sec": 8.041,
+            "original_frame": 241,
+            "laplacian_variance": 370.95
+        },
+        {
+            "filename": "000242.jpg",
+            "timestamp_sec": 8.075,
+            "original_frame": 242,
+            "laplacian_variance": 359.86
+        },
+        {
+            "filename": "000243.jpg",
+            "timestamp_sec": 8.108,
+            "original_frame": 243,
+            "laplacian_variance": 403.21
+        },
+        {
+            "filename": "000244.jpg",
+            "timestamp_sec": 8.141,
+            "original_frame": 244,
+            "laplacian_variance": 366.67
+        },
+        {
+            "filename": "000245.jpg",
+            "timestamp_sec": 8.175,
+            "original_frame": 245,
+            "laplacian_variance": 369.31
+        },
+        {
+            "filename": "000246.jpg",
+            "timestamp_sec": 8.208,
+            "original_frame": 246,
+            "laplacian_variance": 366.16
+        },
+        {
+            "filename": "000247.jpg",
+            "timestamp_sec": 8.242,
+            "original_frame": 247,
+            "laplacian_variance": 406.75
+        },
+        {
+            "filename": "000248.jpg",
+            "timestamp_sec": 8.275,
+            "original_frame": 248,
+            "laplacian_variance": 362.93
+        },
+        {
+            "filename": "000249.jpg",
+            "timestamp_sec": 8.308,
+            "original_frame": 249,
+            "laplacian_variance": 367.17
+        },
+        {
+            "filename": "000250.jpg",
+            "timestamp_sec": 8.342,
+            "original_frame": 250,
+            "laplacian_variance": 366.96
+        },
+        {
+            "filename": "000251.jpg",
+            "timestamp_sec": 8.375,
+            "original_frame": 251,
+            "laplacian_variance": 406.23
+        },
+        {
+            "filename": "000252.jpg",
+            "timestamp_sec": 8.408,
+            "original_frame": 252,
+            "laplacian_variance": 369.0
+        },
+        {
+            "filename": "000253.jpg",
+            "timestamp_sec": 8.442,
+            "original_frame": 253,
+            "laplacian_variance": 369.69
+        },
+        {
+            "filename": "000254.jpg",
+            "timestamp_sec": 8.475,
+            "original_frame": 254,
+            "laplacian_variance": 364.59
+        },
+        {
+            "filename": "000255.jpg",
+            "timestamp_sec": 8.508,
+            "original_frame": 255,
+            "laplacian_variance": 405.79
+        },
+        {
+            "filename": "000256.jpg",
+            "timestamp_sec": 8.542,
+            "original_frame": 256,
+            "laplacian_variance": 362.93
+        },
+        {
+            "filename": "000257.jpg",
+            "timestamp_sec": 8.575,
+            "original_frame": 257,
+            "laplacian_variance": 367.86
+        },
+        {
+            "filename": "000258.jpg",
+            "timestamp_sec": 8.609,
+            "original_frame": 258,
+            "laplacian_variance": 360.22
+        },
+        {
+            "filename": "000259.jpg",
+            "timestamp_sec": 8.642,
+            "original_frame": 259,
+            "laplacian_variance": 401.89
+        },
+        {
+            "filename": "000260.jpg",
+            "timestamp_sec": 8.675,
+            "original_frame": 260,
+            "laplacian_variance": 373.95
+        },
+        {
+            "filename": "000261.jpg",
+            "timestamp_sec": 8.709,
+            "original_frame": 261,
+            "laplacian_variance": 408.83
+        },
+        {
+            "filename": "000262.jpg",
+            "timestamp_sec": 8.742,
+            "original_frame": 262,
+            "laplacian_variance": 370.54
+        },
+        {
+            "filename": "000263.jpg",
+            "timestamp_sec": 8.775,
+            "original_frame": 263,
+            "laplacian_variance": 378.35
+        },
+        {
+            "filename": "000264.jpg",
+            "timestamp_sec": 8.809,
+            "original_frame": 264,
+            "laplacian_variance": 373.51
+        },
+        {
+            "filename": "000265.jpg",
+            "timestamp_sec": 8.842,
+            "original_frame": 265,
+            "laplacian_variance": 416.51
+        },
+        {
+            "filename": "000266.jpg",
+            "timestamp_sec": 8.876,
+            "original_frame": 266,
+            "laplacian_variance": 370.91
+        },
+        {
+            "filename": "000267.jpg",
+            "timestamp_sec": 8.909,
+            "original_frame": 267,
+            "laplacian_variance": 374.44
+        },
+        {
+            "filename": "000268.jpg",
+            "timestamp_sec": 8.942,
+            "original_frame": 268,
+            "laplacian_variance": 370.25
+        },
+        {
+            "filename": "000269.jpg",
+            "timestamp_sec": 8.976,
+            "original_frame": 269,
+            "laplacian_variance": 412.53
+        },
+        {
+            "filename": "000270.jpg",
+            "timestamp_sec": 9.009,
+            "original_frame": 270,
+            "laplacian_variance": 526.17
+        },
+        {
+            "filename": "000271.jpg",
+            "timestamp_sec": 9.042,
+            "original_frame": 271,
+            "laplacian_variance": 436.4
+        },
+        {
+            "filename": "000272.jpg",
+            "timestamp_sec": 9.076,
+            "original_frame": 272,
+            "laplacian_variance": 417.16
+        },
+        {
+            "filename": "000273.jpg",
+            "timestamp_sec": 9.109,
+            "original_frame": 273,
+            "laplacian_variance": 397.86
+        },
+        {
+            "filename": "000274.jpg",
+            "timestamp_sec": 9.142,
+            "original_frame": 274,
+            "laplacian_variance": 452.21
+        },
+        {
+            "filename": "000275.jpg",
+            "timestamp_sec": 9.176,
+            "original_frame": 275,
+            "laplacian_variance": 385.51
+        },
+        {
+            "filename": "000276.jpg",
+            "timestamp_sec": 9.209,
+            "original_frame": 276,
+            "laplacian_variance": 392.11
+        },
+        {
+            "filename": "000277.jpg",
+            "timestamp_sec": 9.243,
+            "original_frame": 277,
+            "laplacian_variance": 394.55
+        },
+        {
+            "filename": "000278.jpg",
+            "timestamp_sec": 9.276,
+            "original_frame": 278,
+            "laplacian_variance": 441.17
+        },
+        {
+            "filename": "000279.jpg",
+            "timestamp_sec": 9.309,
+            "original_frame": 279,
+            "laplacian_variance": 392.6
+        },
+        {
+            "filename": "000280.jpg",
+            "timestamp_sec": 9.343,
+            "original_frame": 280,
+            "laplacian_variance": 382.27
+        },
+        {
+            "filename": "000281.jpg",
+            "timestamp_sec": 9.376,
+            "original_frame": 281,
+            "laplacian_variance": 433.9
+        },
+        {
+            "filename": "000282.jpg",
+            "timestamp_sec": 9.409,
+            "original_frame": 282,
+            "laplacian_variance": 384.02
+        },
+        {
+            "filename": "000283.jpg",
+            "timestamp_sec": 9.443,
+            "original_frame": 283,
+            "laplacian_variance": 388.77
+        },
+        {
+            "filename": "000284.jpg",
+            "timestamp_sec": 9.476,
+            "original_frame": 284,
+            "laplacian_variance": 381.44
+        },
+        {
+            "filename": "000285.jpg",
+            "timestamp_sec": 9.51,
+            "original_frame": 285,
+            "laplacian_variance": 431.72
+        },
+        {
+            "filename": "000286.jpg",
+            "timestamp_sec": 9.543,
+            "original_frame": 286,
+            "laplacian_variance": 383.57
+        },
+        {
+            "filename": "000287.jpg",
+            "timestamp_sec": 9.576,
+            "original_frame": 287,
+            "laplacian_variance": 397.57
+        },
+        {
+            "filename": "000288.jpg",
+            "timestamp_sec": 9.61,
+            "original_frame": 288,
+            "laplacian_variance": 384.16
+        },
+        {
+            "filename": "000289.jpg",
+            "timestamp_sec": 9.643,
+            "original_frame": 289,
+            "laplacian_variance": 441.42
+        },
+        {
+            "filename": "000290.jpg",
+            "timestamp_sec": 9.676,
+            "original_frame": 290,
+            "laplacian_variance": 401.9
+        },
+        {
+            "filename": "000291.jpg",
+            "timestamp_sec": 9.71,
+            "original_frame": 291,
+            "laplacian_variance": 400.82
+        },
+        {
+            "filename": "000292.jpg",
+            "timestamp_sec": 9.743,
+            "original_frame": 292,
+            "laplacian_variance": 454.66
+        },
+        {
+            "filename": "000293.jpg",
+            "timestamp_sec": 9.776,
+            "original_frame": 293,
+            "laplacian_variance": 401.84
+        },
+        {
+            "filename": "000294.jpg",
+            "timestamp_sec": 9.81,
+            "original_frame": 294,
+            "laplacian_variance": 413.87
+        },
+        {
+            "filename": "000295.jpg",
+            "timestamp_sec": 9.843,
+            "original_frame": 295,
+            "laplacian_variance": 407.22
+        },
+        {
+            "filename": "000296.jpg",
+            "timestamp_sec": 9.877,
+            "original_frame": 296,
+            "laplacian_variance": 462.19
+        },
+        {
+            "filename": "000297.jpg",
+            "timestamp_sec": 9.91,
+            "original_frame": 297,
+            "laplacian_variance": 406.36
+        },
+        {
+            "filename": "000298.jpg",
+            "timestamp_sec": 9.943,
+            "original_frame": 298,
+            "laplacian_variance": 409.09
+        },
+        {
+            "filename": "000299.jpg",
+            "timestamp_sec": 9.977,
+            "original_frame": 299,
+            "laplacian_variance": 401.67
+        },
+        {
+            "filename": "000300.jpg",
+            "timestamp_sec": 10.01,
+            "original_frame": 300,
+            "laplacian_variance": 483.51
+        },
+        {
+            "filename": "000301.jpg",
+            "timestamp_sec": 10.043,
+            "original_frame": 301,
+            "laplacian_variance": 417.46
+        },
+        {
+            "filename": "000302.jpg",
+            "timestamp_sec": 10.077,
+            "original_frame": 302,
+            "laplacian_variance": 416.64
+        },
+        {
+            "filename": "000303.jpg",
+            "timestamp_sec": 10.11,
+            "original_frame": 303,
+            "laplacian_variance": 413.49
+        },
+        {
+            "filename": "000304.jpg",
+            "timestamp_sec": 10.143,
+            "original_frame": 304,
+            "laplacian_variance": 467.81
+        },
+        {
+            "filename": "000305.jpg",
+            "timestamp_sec": 10.177,
+            "original_frame": 305,
+            "laplacian_variance": 414.42
+        },
+        {
+            "filename": "000306.jpg",
+            "timestamp_sec": 10.21,
+            "original_frame": 306,
+            "laplacian_variance": 415.33
+        },
+        {
+            "filename": "000307.jpg",
+            "timestamp_sec": 10.244,
+            "original_frame": 307,
+            "laplacian_variance": 409.43
+        },
+        {
+            "filename": "000308.jpg",
+            "timestamp_sec": 10.277,
+            "original_frame": 308,
+            "laplacian_variance": 457.46
+        },
+        {
+            "filename": "000309.jpg",
+            "timestamp_sec": 10.31,
+            "original_frame": 309,
+            "laplacian_variance": 413.82
+        },
+        {
+            "filename": "000310.jpg",
+            "timestamp_sec": 10.344,
+            "original_frame": 310,
+            "laplacian_variance": 412.16
+        },
+        {
+            "filename": "000311.jpg",
+            "timestamp_sec": 10.377,
+            "original_frame": 311,
+            "laplacian_variance": 417.9
+        },
+        {
+            "filename": "000312.jpg",
+            "timestamp_sec": 10.41,
+            "original_frame": 312,
+            "laplacian_variance": 456.63
+        },
+        {
+            "filename": "000313.jpg",
+            "timestamp_sec": 10.444,
+            "original_frame": 313,
+            "laplacian_variance": 430.49
+        },
+        {
+            "filename": "000314.jpg",
+            "timestamp_sec": 10.477,
+            "original_frame": 314,
+            "laplacian_variance": 427.45
+        },
+        {
+            "filename": "000315.jpg",
+            "timestamp_sec": 10.511,
+            "original_frame": 315,
+            "laplacian_variance": 428.73
+        },
+        {
+            "filename": "000316.jpg",
+            "timestamp_sec": 10.544,
+            "original_frame": 316,
+            "laplacian_variance": 462.37
+        },
+        {
+            "filename": "000317.jpg",
+            "timestamp_sec": 10.577,
+            "original_frame": 317,
+            "laplacian_variance": 435.55
+        },
+        {
+            "filename": "000318.jpg",
+            "timestamp_sec": 10.611,
+            "original_frame": 318,
+            "laplacian_variance": 444.67
+        },
+        {
+            "filename": "000320.jpg",
+            "timestamp_sec": 10.677,
+            "original_frame": 320,
+            "laplacian_variance": 476.88
+        },
+        {
+            "filename": "000321.jpg",
+            "timestamp_sec": 10.711,
+            "original_frame": 321,
+            "laplacian_variance": 482.72
+        },
+        {
+            "filename": "000322.jpg",
+            "timestamp_sec": 10.744,
+            "original_frame": 322,
+            "laplacian_variance": 490.34
+        },
+        {
+            "filename": "000323.jpg",
+            "timestamp_sec": 10.777,
+            "original_frame": 323,
+            "laplacian_variance": 498.03
+        },
+        {
+            "filename": "000324.jpg",
+            "timestamp_sec": 10.811,
+            "original_frame": 324,
+            "laplacian_variance": 484.12
+        },
+        {
+            "filename": "000325.jpg",
+            "timestamp_sec": 10.844,
+            "original_frame": 325,
+            "laplacian_variance": 481.47
+        },
+        {
+            "filename": "000326.jpg",
+            "timestamp_sec": 10.878,
+            "original_frame": 326,
+            "laplacian_variance": 500.1
+        },
+        {
+            "filename": "000327.jpg",
+            "timestamp_sec": 10.911,
+            "original_frame": 327,
+            "laplacian_variance": 502.56
+        },
+        {
+            "filename": "000329.jpg",
+            "timestamp_sec": 10.978,
+            "original_frame": 329,
+            "laplacian_variance": 506.75
+        },
+        {
+            "filename": "000330.jpg",
+            "timestamp_sec": 11.011,
+            "original_frame": 330,
+            "laplacian_variance": 511.83
+        },
+        {
+            "filename": "000331.jpg",
+            "timestamp_sec": 11.044,
+            "original_frame": 331,
+            "laplacian_variance": 522.33
+        },
+        {
+            "filename": "000333.jpg",
+            "timestamp_sec": 11.111,
+            "original_frame": 333,
+            "laplacian_variance": 533.95
+        },
+        {
+            "filename": "000334.jpg",
+            "timestamp_sec": 11.144,
+            "original_frame": 334,
+            "laplacian_variance": 540.38
+        },
+        {
+            "filename": "000335.jpg",
+            "timestamp_sec": 11.178,
+            "original_frame": 335,
+            "laplacian_variance": 494.48
+        },
+        {
+            "filename": "000336.jpg",
+            "timestamp_sec": 11.211,
+            "original_frame": 336,
+            "laplacian_variance": 435.56
+        },
+        {
+            "filename": "000337.jpg",
+            "timestamp_sec": 11.245,
+            "original_frame": 337,
+            "laplacian_variance": 494.48
+        },
+        {
+            "filename": "000338.jpg",
+            "timestamp_sec": 11.278,
+            "original_frame": 338,
+            "laplacian_variance": 423.49
+        },
+        {
+            "filename": "000339.jpg",
+            "timestamp_sec": 11.311,
+            "original_frame": 339,
+            "laplacian_variance": 454.59
+        },
+        {
+            "filename": "000340.jpg",
+            "timestamp_sec": 11.345,
+            "original_frame": 340,
+            "laplacian_variance": 417.53
+        },
+        {
+            "filename": "000341.jpg",
+            "timestamp_sec": 11.378,
+            "original_frame": 341,
+            "laplacian_variance": 475.74
+        },
+        {
+            "filename": "000342.jpg",
+            "timestamp_sec": 11.411,
+            "original_frame": 342,
+            "laplacian_variance": 424.88
+        },
+        {
+            "filename": "000343.jpg",
+            "timestamp_sec": 11.445,
+            "original_frame": 343,
+            "laplacian_variance": 406.42
+        },
+        {
+            "filename": "000344.jpg",
+            "timestamp_sec": 11.478,
+            "original_frame": 344,
+            "laplacian_variance": 465.47
+        },
+        {
+            "filename": "000345.jpg",
+            "timestamp_sec": 11.511,
+            "original_frame": 345,
+            "laplacian_variance": 404.82
+        },
+        {
+            "filename": "000346.jpg",
+            "timestamp_sec": 11.545,
+            "original_frame": 346,
+            "laplacian_variance": 437.14
+        },
+        {
+            "filename": "000347.jpg",
+            "timestamp_sec": 11.578,
+            "original_frame": 347,
+            "laplacian_variance": 400.08
+        },
+        {
+            "filename": "000348.jpg",
+            "timestamp_sec": 11.612,
+            "original_frame": 348,
+            "laplacian_variance": 458.22
+        },
+        {
+            "filename": "000349.jpg",
+            "timestamp_sec": 11.645,
+            "original_frame": 349,
+            "laplacian_variance": 415.8
+        },
+        {
+            "filename": "000350.jpg",
+            "timestamp_sec": 11.678,
+            "original_frame": 350,
+            "laplacian_variance": 416.48
+        },
+        {
+            "filename": "000351.jpg",
+            "timestamp_sec": 11.712,
+            "original_frame": 351,
+            "laplacian_variance": 409.48
+        },
+        {
+            "filename": "000352.jpg",
+            "timestamp_sec": 11.745,
+            "original_frame": 352,
+            "laplacian_variance": 447.65
+        },
+        {
+            "filename": "000353.jpg",
+            "timestamp_sec": 11.778,
+            "original_frame": 353,
+            "laplacian_variance": 416.91
+        },
+        {
+            "filename": "000354.jpg",
+            "timestamp_sec": 11.812,
+            "original_frame": 354,
+            "laplacian_variance": 389.16
+        },
+        {
+            "filename": "000355.jpg",
+            "timestamp_sec": 11.845,
+            "original_frame": 355,
+            "laplacian_variance": 443.66
+        },
+        {
+            "filename": "000356.jpg",
+            "timestamp_sec": 11.879,
+            "original_frame": 356,
+            "laplacian_variance": 415.92
+        },
+        {
+            "filename": "000357.jpg",
+            "timestamp_sec": 11.912,
+            "original_frame": 357,
+            "laplacian_variance": 387.64
+        },
+        {
+            "filename": "000358.jpg",
+            "timestamp_sec": 11.945,
+            "original_frame": 358,
+            "laplacian_variance": 418.67
+        }
+    ]
+}

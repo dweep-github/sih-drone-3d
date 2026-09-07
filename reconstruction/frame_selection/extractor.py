@@ -34,7 +34,7 @@ class FrameExtractor:
         return hist
 
     def process(self):
-        cap = cv2.VideoCapture(self.input_video)
+        cap = cv2.VideoCapture(str(self.input_video))
         if not cap.isOpened():
             raise ValueError(f"Could not open video: {self.input_video}")
 
@@ -90,6 +90,10 @@ class FrameExtractor:
                         if saved_count >= self.target_frames * 1.5:
                             print("Reached upper limit of frame budget. Stopping extraction.")
                             break
+                    else:
+                        print(f"Dropped {frame_idx:06d} (Too similar to previous frame)")
+                else:
+                    print(f"Dropped {frame_idx:06d} (Blur variance: {variance:.1f} < {self.blur_threshold})")
 
             frame_idx += 1
 
@@ -112,11 +116,14 @@ class FrameExtractor:
         print(f"\nExtraction complete. Saved {saved_count} clean frames to {self.frames_dir}")
         print("Metadata generated. Hand-off ready for Person 1.")
 
+
 if __name__ == "__main__":
-    # Test execution
+    # Test execution with much more forgiving thresholds for a typical drone video
     extractor = FrameExtractor(
         input_video="input/drone_video.mp4", 
         output_dir=".",
-        target_frames=400
+        target_frames=400,
+        blur_threshold=10.0,    # Anything above 10 is considered "sharp enough"
+        sim_threshold=0.9999      # Only drop frames that are 99%+ identical
     )
     extractor.process()
