@@ -1,0 +1,15 @@
+# SIH26158 Person 1 - 3D Reconstruction Pipeline Requirements
+# Core scientific and geometry packages
+numpy>=1.26.0
+opencv-python>=4.8.0
+torch>=2.0.0
+torchvision>=0.15.0
+pyproj>=3.6.0
+open3d>=0.18.0
+
+# Photogrammetry and COLMAP bindings
+pycolmap>=0.6.0
+
+# Utilities
+tqdm>=4.66.0
+pydantic>=2.0.0
