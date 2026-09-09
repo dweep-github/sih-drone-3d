@@ -339,7 +339,7 @@ def get_system_resources() -> Dict[str, Any]:
     try:
         import torch
 
-        cuda_avail = bool(torch.cuda.is_available())
+        cuda_avail = torch.cuda.is_available()
         if cuda_avail:
             total_bytes = torch.cuda.get_device_properties(0).total_memory
             gpu_info = {
@@ -1150,10 +1150,10 @@ def run_pipeline(
         "timing": timing_report,
         "resource_monitoring": get_system_resources(),
         "input": {
-            "input_path": str(config.input_path),
-            "output_dir": str(config.output_dir),
-            "gps_path": str(config.gps_path) if config.gps_path else None,
-            "imu_path": str(config.imu_path) if config.imu_path else None,
+            "input_path": config.input_path,
+            "output_dir": config.output_dir,
+            "gps_path": config.gps_path if config.gps_path else None,
+            "imu_path": config.imu_path if config.imu_path else None,
         },
         "frame_processing": frame_report,
         "object_detection": mask_report,
