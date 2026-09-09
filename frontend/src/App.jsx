@@ -4,6 +4,7 @@ import { OrbitControls, Grid, PerformanceMonitor } from '@react-three/drei';
 import { Upload, Play, Terminal, Circle, FileVideo, HardDrive, Cpu, Loader2 } from 'lucide-react';
 import * as THREE from 'three';
 import { FishyFileDrop } from './components/ui/fishy-file-drop';
+import axios from 'axios';
 
 // R3F Performance Best Practices: Pre-allocate geometries and materials outside or via useMemo
 function OptimizedDroneMesh() {
@@ -94,6 +95,50 @@ function App() {
     setLogs((prev) => [...prev, { msg, type, time: Date.now() }]);
   };
 
+  const [metrics, setMetrics] = useState({ frames: null, masking: null });
+  const lastLoggedStep = useRef(-1);
+
+  useEffect(() => {
+    let intervalId;
+    if (isRunning) {
+      intervalId = setInterval(async () => {
+        try {
+          const res = await axios.get('http://127.0.0.1:8000/api/status');
+          const { pipeline, report } = res.data;
+
+          if (report) {
+            const framesCount = report.frame_processing?.selected_frames ?? report.frame_processing?.accepted_frames;
+            const maskCov = report.object_detection?.mask_coverage;
+            setMetrics({
+              frames: framesCount ?? null,
+              masking: maskCov !== undefined ? Math.round(maskCov * 100) : null
+            });
+          }
+          
+          if (pipeline.step !== lastLoggedStep.current) {
+            addLog(pipeline.message, pipeline.status === 'failed' ? "ERROR" : "PROCESS");
+            lastLoggedStep.current = pipeline.step;
+          }
+
+          if (pipeline.status === 'completed') {
+            setIsRunning(false);
+            addLog("Pipeline completed successfully.", "SUCCESS");
+            clearInterval(intervalId);
+          } else if (pipeline.status === 'failed') {
+            setIsRunning(false);
+            addLog(`Pipeline failed: ${pipeline.message}`, "ERROR");
+            clearInterval(intervalId);
+          }
+        } catch (err) {
+           console.error("Polling error", err);
+        }
+      }, 2000);
+    }
+    return () => {
+      if (intervalId) clearInterval(intervalId);
+    };
+  }, [isRunning]);
+
   const handleFilesSelected = (files) => {
     if (files && files[0]) {
       const file = files[0];
@@ -110,33 +155,40 @@ function App() {
     try {
       const formData = new FormData();
       formData.append('file', videoFile);
-      // const response = await axios.post('http://127.0.0.1:8000/api/upload-video', formData);
-      await new Promise(r => setTimeout(r, 1000));
-      addLog("Upload successful.", "SUCCESS");
+      
+      const response = await axios.post('http://127.0.0.1:8000/api/upload-video', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+        onUploadProgress: (progressEvent) => {
+          const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
+          console.log(`Upload progress: ${percentCompleted}%`);
+          if (percentCompleted === 50 || percentCompleted === 100) {
+             addLog(`Upload progress: ${percentCompleted}%`, "INFO");
+          }
+        }
+      });
+      
+      addLog(`Upload successful. Saved to: ${response.data.saved_to}`, "SUCCESS");
     } catch (error) {
-      addLog("Upload failed. Mock fallback used.", "WARNING");
+      console.error(error);
+      addLog(`Upload failed: ${error.message}`, "ERROR");
     } finally {
       setIsUploading(false);
     }
   };
 
   const runPipeline = async () => {
-    setIsRunning(true);
-    addLog("Starting reconstruction pipeline...", "PROCESS");
-    addLog("Extracting frames...", "PROCESS");
-    
     try {
-      // const response = await axios.post('http://127.0.0.1:8000/api/run-pipeline');
-      await new Promise(r => setTimeout(r, 1500));
-      addLog("Extraction: 356 clean frames isolated.", "SUCCESS");
-      addLog("Initiating YOLOv11 masking...", "PROCESS");
-      await new Promise(r => setTimeout(r, 1500));
-      addLog("Masking completed. 98% confidence.", "SUCCESS");
-      addLog("Pipeline complete.", "SUCCESS");
+      addLog("Requesting reconstruction pipeline start...", "PROCESS");
+      const response = await axios.post('http://127.0.0.1:8000/api/run-pipeline');
+      if (response.data.status === 'started' || response.data.status === 'already_running') {
+         setIsRunning(true);
+         addLog(response.data.message, "INFO");
+      }
     } catch (error) {
-      addLog("Pipeline failed.", "ERROR");
-    } finally {
-      setIsRunning(false);
+      console.error(error);
+      addLog(`Failed to start pipeline: ${error.response?.data?.detail || error.message}`, "ERROR");
     }
   };
 
@@ -225,11 +277,11 @@ function App() {
               <div className="grid grid-cols-2 gap-px bg-[#333] rounded-md overflow-hidden border border-[#333]">
                 <div className="bg-[#000] p-3 flex flex-col">
                   <span className="text-[#888] text-xs font-medium">Frames</span>
-                  <span className="text-xl font-semibold tracking-tight mt-1">356</span>
+                  <span className="text-xl font-semibold tracking-tight mt-1">{metrics.frames ?? "-"}</span>
                 </div>
                 <div className="bg-[#000] p-3 flex flex-col">
                   <span className="text-[#888] text-xs font-medium">Masking</span>
-                  <span className="text-xl font-semibold tracking-tight mt-1">98%</span>
+                  <span className="text-xl font-semibold tracking-tight mt-1">{metrics.masking ? `${metrics.masking}%` : "-"}</span>
                 </div>
               </div>
 

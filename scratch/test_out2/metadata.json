@@ -1,0 +1,64 @@
+{
+    "source_video": "video.mp4",
+    "original_fps": 29.97002997002997,
+    "total_frames": 359,
+    "duration_seconds": 11.98,
+    "selected_frames": 9,
+    "blur_threshold_used": 100.0,
+    "frames": [
+        {
+            "filename": "000000.jpg",
+            "timestamp_sec": 0.0,
+            "original_frame": 0,
+            "laplacian_variance": 555.27
+        },
+        {
+            "filename": "000057.jpg",
+            "timestamp_sec": 1.902,
+            "original_frame": 57,
+            "laplacian_variance": 409.3
+        },
+        {
+            "filename": "000087.jpg",
+            "timestamp_sec": 2.903,
+            "original_frame": 87,
+            "laplacian_variance": 366.45
+        },
+        {
+            "filename": "000118.jpg",
+            "timestamp_sec": 3.937,
+            "original_frame": 118,
+            "laplacian_variance": 431.45
+        },
+        {
+            "filename": "000161.jpg",
+            "timestamp_sec": 5.372,
+            "original_frame": 161,
+            "laplacian_variance": 370.78
+        },
+        {
+            "filename": "000196.jpg",
+            "timestamp_sec": 6.54,
+            "original_frame": 196,
+            "laplacian_variance": 429.25
+        },
+        {
+            "filename": "000230.jpg",
+            "timestamp_sec": 7.674,
+            "original_frame": 230,
+            "laplacian_variance": 379.57
+        },
+        {
+            "filename": "000270.jpg",
+            "timestamp_sec": 9.009,
+            "original_frame": 270,
+            "laplacian_variance": 526.17
+        },
+        {
+            "filename": "000313.jpg",
+            "timestamp_sec": 10.444,
+            "original_frame": 313,
+            "laplacian_variance": 430.49
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "input_path": "C:\\Users\\Dweep\\sih-drone-3d\\input\\video.mp4",
+  "min_images": 2,
+  "sim_threshold": 0.999,
+  "blur_threshold": 10.0
+}

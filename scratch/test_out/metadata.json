@@ -1,0 +1,16 @@
+{
+    "source_video": "video.mp4",
+    "original_fps": 29.97002997002997,
+    "total_frames": 359,
+    "duration_seconds": 11.98,
+    "selected_frames": 1,
+    "blur_threshold_used": 100.0,
+    "frames": [
+        {
+            "filename": "000000.jpg",
+            "timestamp_sec": 0.0,
+            "original_frame": 0,
+            "laplacian_variance": 555.27
+        }
+    ]
+}
